@@ -27,8 +27,8 @@ def getBTCRate(targetCur):
     return rateStr
 
 if __name__ == "__main__":
-    print("BTC/CHF: " + getBTCRate("CHF"))
-    print("BTC/EUR: " + getBTCRate("EUR"))
-    print("BTC/USD: " + getBTCRate("USD"))
+    print("BTC/CHF: " + getBTCRate("BTC","CHF"))
+    print("BTC/EUR: " + getBTCRate("BTC","EUR"))
+    print("BTC/USD: " + getBTCRate("BTC","USD"))
 
 
